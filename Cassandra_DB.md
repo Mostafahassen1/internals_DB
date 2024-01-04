@@ -18,4 +18,4 @@ Perhaps you are used to Oracle or MySQL databases. If so, you know that extendin
 
 ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/c1cc2568-56bd-4c66-a4e7-beff60fedcd9)
 
-% ## To double your capacity or double your throughput, double the number of nodes. That’s all it takes. Need more power? Add more nodes
+####  To double your capacity or double your throughput, double the number of nodes. That’s all it takes. Need more power? Add more nodes
