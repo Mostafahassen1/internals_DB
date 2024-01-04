@@ -216,10 +216,16 @@ In most Cassandra setups, replicas of each row are stored across two or more nod
 
 
 
-# resourse
-https://cassandra.apache.org/_/cassandra-basics.html
-https://cassandra.apache.org/_/blog/Apache-Cassandra-5.0-Features-Trie-Memtables-and-Trie-Indexed-SSTables.html
-https://docs.datastax.com/en/cassandra-oss/3.x/cassandra/dml/dmlWriteUpdate.html
+# Resources
+
+Below are some helpful resources for learning more about Apache Cassandra:
+
+1. [Cassandra Basics - Official Apache Cassandra Documentation](https://cassandra.apache.org/_/cassandra-basics.html)
+
+2. [Apache Cassandra 5.0 Features: Trie Memtables and Trie-Indexed SSTables - Official Cassandra Blog](https://cassandra.apache.org/_/blog/Apache-Cassandra-5.0-Features-Trie-Memtables-and-Trie-Indexed-SSTables.html)
+
+3. [DataStax Documentation - Write and Update Operations in Cassandra 3.x](https://docs.datastax.com/en/cassandra-oss/3.x/cassandra/dml/dmlWriteUpdate.html)
+
 
 
 
