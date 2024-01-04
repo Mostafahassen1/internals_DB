@@ -9,3 +9,5 @@ Cassandra is a NoSQL distributed database known for its unique attributes:
 
   ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/eb16dc2f-2f45-464c-8ef5-8d829da73fc0)
 
+  ## Want more power? Add more nodes
+
