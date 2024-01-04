@@ -9,6 +9,9 @@ Cassandra is a NoSQL distributed database known for its unique attributes:
 
   ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/eb16dc2f-2f45-464c-8ef5-8d829da73fc0)
 
+
+
+
   ## Want more power? Add more nodes
 
 One reason for Cassandra’s popularity is that it enables developers to scale their databases dynamically, using off-the-shelf hardware, with no downtime. You can expand when you need to – and also shrink
@@ -21,6 +24,10 @@ Perhaps you are used to Oracle or MySQL databases. If so, you know that extendin
 ####  To double your capacity or double your throughput, double the number of nodes. That’s all it takes. Need more power? Add more nodes
 
 
+
+
+
+
 ## partitions
 
 the data itself is automatically distributed
@@ -30,9 +37,18 @@ the data itself is automatically distributed
 ####  This represents a replication factor of one, or RF = 1.
 
 
+
+
+
+
 ## Replication ensures reliability and fault tolerance
 
 ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/603f4f2b-b3b0-409f-bb31-95d541bc38ae)
+
+
+
+
+
 
 ## Tuning your consistency
 
@@ -47,6 +63,10 @@ The **consistency level** signifies the minimum number of Cassandra nodes requir
 As a general guideline, the selection of your consistency level (CL) is influenced by your replication factor. For instance, in a scenario where the data is replicated across three nodes:
 
 - **Consistency Level (CL) = QUORUM:** Here, "Quorum" refers to the majority, which in this case is 2 replicas (or RF/2 + 1). Therefore, for a successful query execution, the coordinator requires acknowledgment from at least two of the replicas.
+
+
+
+
 
 ## Indexing Concepts in Apache Cassandra
 
@@ -68,11 +88,21 @@ The **primary index** in Apache Cassandra corresponds to the partition key. The 
 
 ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/190d3d89-b52f-499c-80b3-da9367497649)
 
+
+
+
+
+
 ## Storage Engine in Cassandra
 
 Cassandra operates on a distributed architecture termed as a distributed hash table (DHT), differing significantly from traditional relational databases like MySQL in terms of its data storage model.
 
 The internal storage architecture in Cassandra, known as the **Storage Engine**, serves the crucial role of handling data distribution, replication, and storage across the entire cluster. Unlike MySQL, Cassandra does not offer pluggable or selectable storage engines.
+
+
+
+
+
 
 ## Trie Memtables: In-Memory Data Structures in Cassandra
 
@@ -93,6 +123,11 @@ Write amplification refers to the scenario where a system writes more data to st
 In databases, minimizing write amplification is crucial for optimizing performance and resource utilization. Memtables, including Trie Memtables, play a pivotal role in reducing write amplification. Specifically, Trie Memtables contribute to further minimizing this phenomenon by optimizing memory allocation and write organization.
 
 
+
+
+
+
+
 ## Trie-Indexed SSTables: Persistent Data Structures in Cassandra
 
 ### Persistent Data Structure
@@ -102,6 +137,11 @@ In databases, minimizing write amplification is crucial for optimizing performan
 ### Log-Structured Storage
 
 SSTables act as the foundational elements within Cassandra's log-structured storage architecture. This design principle dictates that data is exclusively appended to files, avoiding updates or overwrites. Whenever data changes occur, a new SSTable is created, while the older data remains intact.
+
+
+
+
+
 
 
 ## Data Update Process in Cassandra
