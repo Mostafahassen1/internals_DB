@@ -11,3 +11,11 @@ Cassandra is a NoSQL distributed database known for its unique attributes:
 
   ## Want more power? Add more nodes
 
+One reason for Cassandra’s popularity is that it enables developers to scale their databases dynamically, using off-the-shelf hardware, with no downtime. You can expand when you need to – and also shrink
+
+
+Perhaps you are used to Oracle or MySQL databases. If so, you know that extending them to support more users or storage capacity requires you to add more CPU power, RAM, or faster disks. Each of those costs a significant amount of money. And yet: Eventually you still encounter some ceilings and constraints.
+
+![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/c1cc2568-56bd-4c66-a4e7-beff60fedcd9)
+
+% ## To double your capacity or double your throughput, double the number of nodes. That’s all it takes. Need more power? Add more nodes
