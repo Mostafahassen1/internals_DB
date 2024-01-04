@@ -1,3 +1,10 @@
+
+                                                                     # Cassandra 
+
+
+
+
+
 # Cassandra Overview
 
 Cassandra is a NoSQL distributed database known for its unique attributes:
@@ -12,7 +19,14 @@ Cassandra is a NoSQL distributed database known for its unique attributes:
 
 
 
-  ## Want more power? Add more nodes
+
+
+
+
+
+
+
+  # Want more power? Add more nodes
 
 One reason for Cassandra’s popularity is that it enables developers to scale their databases dynamically, using off-the-shelf hardware, with no downtime. You can expand when you need to – and also shrink
 
@@ -28,7 +42,13 @@ Perhaps you are used to Oracle or MySQL databases. If so, you know that extendin
 
 
 
-## partitions
+
+
+
+
+
+
+# partitions
 
 the data itself is automatically distributed
 
@@ -41,7 +61,17 @@ the data itself is automatically distributed
 
 
 
-## Replication ensures reliability and fault tolerance
+
+
+
+
+
+
+
+
+
+
+# Replication ensures reliability and fault tolerance
 
 ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/603f4f2b-b3b0-409f-bb31-95d541bc38ae)
 
@@ -50,7 +80,11 @@ the data itself is automatically distributed
 
 
 
-## Tuning your consistency
+
+
+
+
+# Tuning your consistency
 
 ![image](https://github.com/Mostafahassen1/Hospital-System/assets/134046265/945bd0b6-dab8-49d3-b808-cede598e8f58)
 
@@ -68,7 +102,15 @@ As a general guideline, the selection of your consistency level (CL) is influenc
 
 
 
-## Indexing Concepts in Apache Cassandra
+
+
+
+
+
+
+
+
+# Indexing Concepts in Apache Cassandra
 
 Apache Cassandra offers various types of indexing, including:
 
@@ -93,7 +135,12 @@ The **primary index** in Apache Cassandra corresponds to the partition key. The 
 
 
 
-## Storage Engine in Cassandra
+
+
+
+
+
+# Storage Engine in Cassandra
 
 Cassandra operates on a distributed architecture termed as a distributed hash table (DHT), differing significantly from traditional relational databases like MySQL in terms of its data storage model.
 
@@ -104,7 +151,13 @@ The internal storage architecture in Cassandra, known as the **Storage Engine**,
 
 
 
-## Trie Memtables: In-Memory Data Structures in Cassandra
+
+
+
+
+
+
+# Trie Memtables: In-Memory Data Structures in Cassandra
 
 **Memtables** serve as an in-memory data structure acting as a staging area for recently updated data within Cassandra. When data is written to Cassandra, it is initially stored in Memtables before being flushed to on-disk storage.
 
@@ -128,7 +181,12 @@ In databases, minimizing write amplification is crucial for optimizing performan
 
 
 
-## Trie-Indexed SSTables: Persistent Data Structures in Cassandra
+
+
+
+
+
+# Trie-Indexed SSTables: Persistent Data Structures in Cassandra
 
 ### Persistent Data Structure
 
@@ -144,7 +202,11 @@ SSTables act as the foundational elements within Cassandra's log-structured stor
 
 
 
-## Data Update Process in Cassandra
+
+
+
+
+# Data Update Process in Cassandra
 
 During a write operation, Cassandra adds each new row to the database without checking for the existence of a duplicate record. This policy can result in the coexistence of multiple versions of the same row within the database. For further insights into writes, refer to the section on "How is data written?"
 
@@ -154,6 +216,10 @@ In most Cassandra setups, replicas of each row are stored across two or more nod
 
 
 
+# resourse
+https://cassandra.apache.org/_/cassandra-basics.html
+https://cassandra.apache.org/_/blog/Apache-Cassandra-5.0-Features-Trie-Memtables-and-Trie-Indexed-SSTables.html
+https://docs.datastax.com/en/cassandra-oss/3.x/cassandra/dml/dmlWriteUpdate.html
 
 
 
