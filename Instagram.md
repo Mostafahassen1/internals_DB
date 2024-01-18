@@ -26,14 +26,10 @@ Instagram mainly uses two backend database systems:
 **Important Note:**
 Both PostgreSQL and Cassandra are capable of handling both read and write operations. However, the design decisions and strategies mentioned in the passage suggest that read replicas in each region, likely using Cassandra, are used to address the high.
 ## Sourse
-# Instagram Engineering Blog - Scaling Our Infrastructure
 
-Read about how Instagram's engineering team scaled their infrastructure to multiple data centers.
 
 [Instagration Pt. 2: Scaling Our Infrastructure to Multiple Data Centers](https://instagram-engineering.com/instagration-pt-2-scaling-our-infrastructure-to-multiple-data-centers-5745cbad7834)
 
-# CodeGym - Social Media Apps and Technologies
 
-Explore the technologies behind popular social media apps like Instagram and TikTok, focusing on the role of threads.
 
 [Threads: Instagram, TikTok, Top Social Media Apps, and What Technologies Stand Behind Them](https://codegym.cc/groups/posts/18412-threads-instagram-tiktok-top-social-media-apps-and-what-technologies-stand-behind-them)
